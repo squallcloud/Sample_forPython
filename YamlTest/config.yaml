@@ -1,0 +1,14 @@
+toollist:
+  - VsDiffMerge:
+    path: ""
+    merge: "$(lpath) $(rpath) $(base) $(cpath)"
+    diff: "$(lpath) $(rpath)"
+
+extlist:
+  - h,cpp,inl,cxx,hpp:
+    diff: "VsDiffMerge"
+    merge: "VsDiffMerge"
+
+  - other:
+    diff: "VsDiffMerge"
+    merge: "VsDiffMerge"
