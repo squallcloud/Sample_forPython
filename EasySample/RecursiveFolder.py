@@ -1,7 +1,7 @@
 ﻿# 再帰的にファイル・ディレクトリを探索する
 from pathlib import Path
 
-rootPath = 'C:/Users/cloud/Desktop/Multipurpose/Programming'
+rootPath = '..'
 
 p = Path(rootPath)
 
